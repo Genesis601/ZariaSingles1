@@ -1,0 +1,360 @@
+#background {
+    background-image: url('image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.head1 {
+    color: rgb(243, 237, 237);
+    text-decoration:solid ;
+    text-align: center;
+    font-size: 50px;
+}
+
+.p1 {
+    color: rgb(230, 120, 120);
+    text-decoration:solid ;
+    text-align: center;
+    font-size: 25px;
+}
+
+.fieldset {
+    width: 500px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgb(218, 113, 113);
+    float: center;
+    margin: auto;
+}
+
+.input {
+    width: 420px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.text {
+   color: white;
+   font-size: 20px;
+
+}
+
+.p {
+    float: right;
+    color: white;
+}
+
+.vic {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.submit {
+    background-color: rgb(236, 44, 44);
+    color: white;
+    width: 300px;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 10px;
+    border-color: rgb(212, 40, 40);
+}
+
+.submit2 {
+    background-color: rgb(22, 22, 22);
+   
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: rgb(59, 57, 57);
+
+}
+
+.submit3 {
+    background-color: rgb(236, 53, 53);
+   color: white;
+    width: 200px;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: rgb(240, 5, 5);
+ 
+}
+.hear2 {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}
+
+.had {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+
+}
+
+.hear {
+  text-align: center;
+  color: rgb(10, 10, 10);
+}
+
+.sidenav {
+    
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  
+  
+  
+  div.gallery img {
+   width: 230px;
+   height: 310px;
+   border-radius: 15px;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 30px;
+    left: 16px;
+    font-size: 23px
+  }
+  
+  
+  .responsive {
+    padding: ;
+    float: left;
+    width:15.5em ;
+    height: 20.5em;
+    position: relative;
+  }
+  
+  @media  screen and (max-width: 760px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0px;
+    }
+    div.gallery img {
+      width: 280px;
+      height: 310px;
+      border-radius: 15px;
+     }
+  }
+  @media screen and (max-width:280px) {
+    div.gallery img {
+      width: 10px;
+      height: 200px;
+      border-radius: 15px;
+     }
+     .responsive {
+      width: 49.99999%;
+      margin: 6px 0px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+   
+    div.gallery img {
+      width: 250px;
+      height: 310px;
+      border-radius: 15px;
+     }
+     .responsive {
+      width: 49.99999%;
+      margin: 6px 0px;
+    }
+  }
+
+ 
+  @media screen and (max-width: 440px) {
+    .responsive {
+      width: 50%;
+      height: 50%;
+      margin: 6px 0px;
+    }
+   
+    div.gallery img {
+      width: 170px;
+      height: 230px;
+      border-radius: 15px;
+     }
+
+     .had {
+      font-size: 25px;
+      text-align: center;
+     }
+    .hear {
+      font-size: 12px;
+      text-align: center;
+    }
+    .hear2 {
+      color: blue;
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+
+
+ 
+  
+  @media screen and (max-width:1500px) {
+    .fieldset {
+      width: 150px;
+      height: 400px;
+    }
+
+    .head1 {
+      font-size: 35px;
+    }
+    .p1 {
+      font-size: 20px;
+    }
+
+    .input {
+      width: 300px;
+      height: 25px;
+    }
+
+    .submit {
+       width:200px ;
+    }
+    .submit2{
+      width: 200px;
+    }
+
+   
+  }
+  
+  @media screen and (max-width:450px) {
+    .fieldset {
+      width: 100px;
+      height: 380px;
+    }
+
+    .head1 {
+      font-size: 30px;
+    }
+    .p1 {
+      font-size: 15px;
+    }
+
+    .input {
+      width: 250px;
+      height: 20px;
+    }
+
+    .submit {
+       width:150px ;
+       font-size: 12px;
+    }
+    .submit2{
+      width: 150px;
+      font-size: 13px;
+    }
+
+    .text {
+      font-size: 17px;
+    }
+
+  }
+
+  @media screen and (max-width:280px) {
+    .fieldset {
+      width: 100px;
+      height: 350px;
+    }
+
+    .head1 {
+      font-size: 25px;
+    }
+    .p1 {
+      font-size: 11px;
+    }
+
+    .input {
+      width: 200px;
+      height: 18px;
+    }
+
+    .submit {
+       width:130px ;
+       height: 40px;
+       font-size: 11px;
+    }
+    .submit2{
+      width: 130px;
+      height: 40px;
+      font-size: 13px;
+    }
+
+    .text {
+      font-size: 13px;
+    }
+
+    
+  }
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: rgb(248, 245, 245);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    background-color: rgb(13, 13, 14);
+    border-radius: 8px;
+  }
+  
+  .pagination a.active {
+    background-color: #0fe04e;
+    color: rgb(243, 235, 235)0, 77, 77);
+  }
+  
+  .pagination a:hover:not(.active) {background-color: rgb(70, 67, 67);}
+
+  .center {
+    text-align: center;
+  }
+
+ 
